@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Planet, Ghost} from 'react-kawaii';
+import {Planet, Ghost, Cat, CreditCard} from 'react-kawaii';
 
 function App() {
   return (
