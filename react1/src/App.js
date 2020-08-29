@@ -6,6 +6,7 @@ import {Planet, Ghost, Cat, CreditCard, Backpack} from 'react-kawaii';
 function App() {
   return (
 	<>
+		<div className="cardContainer">
 		<div className="card">
 		<Planet size={220} mood="happy" color="#FCCB7E" />
 		</div>
@@ -20,6 +21,7 @@ function App() {
 		</div>
 		<div className="card">
 		<Backpack size={320} mood="excited" color="#FFD882" />
+		</div>
 		</div>
 	</>
   );
