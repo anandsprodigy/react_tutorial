@@ -8,6 +8,8 @@ function App() {
 	<>
 		<Planet size={220} mood="happy" color="#FCCB7E" />
 		<Ghost size={240} mood="blissful" color="#E0E4E8" />
+		<Cat size={320} mood="excited" color="#596881" />
+		<CreditCard size={200} mood="sad" color="#83D1FB" />
 		
 	</>
   );
