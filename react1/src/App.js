@@ -14,7 +14,7 @@ function App() {
 		</div>
 		<div className="card">
 		<Cat size={320} mood="excited" color="#596881" />
-		
+		</div>
 		<div className="card">
 		<CreditCard size={200} mood="sad" color="#83D1FB" />
 		</div>
