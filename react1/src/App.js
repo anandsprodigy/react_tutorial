@@ -6,6 +6,7 @@ function App() {
   return (
 	<>
 		<Planet size={220} mood="happy" color="#FCCB7E" />
+		<Ghost size={240} mood="blissful" color="#E0E4E8" />
 	</>
   );
 }
