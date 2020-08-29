@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
 	<>
-	
+		<Planet size={220} mood="happy" color="#FCCB7E" />
 	</>
   );
 }
