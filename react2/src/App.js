@@ -7,6 +7,7 @@ function App() {
   return (
     <div className="App">
         <Motherboard manufacturer="Intel" core="2" RAM="4" type="ATX" slot="PCI-e"/>
+        <Motherboard manufacturer="AMD" core="2" RAM="8" type="iTX" slot="PCI-e"/>
     </div>
   );
 }

@@ -25,6 +25,7 @@ class Motherboard extends React.Component{
 					<td>Slot: {this.props.slot}</td>
 				</tr>
 				</table>
+				<a href="https://create-react-app.dev/docs/getting-started/">React Tutorials</a>
 			</>
 		);
 	}
