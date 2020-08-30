@@ -21,6 +21,6 @@ class Motherboard extends React.Component{
 			</>
 		);
 	}
-
-
 }
+
+export default Motherboard;
