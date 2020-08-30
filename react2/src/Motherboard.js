@@ -12,5 +12,15 @@ class Motherboard extends React.Component{
 		};
 	}
 
+	render(){
+		return(
+			<>
+			<h1>{this.manufacturer}</h1>
+			<h2>{this.core}</h2>
+			<h2>{this.RAM}</h2>
+			</>
+		);
+	}
+
 
 }
