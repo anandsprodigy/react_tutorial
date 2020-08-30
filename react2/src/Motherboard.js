@@ -11,8 +11,16 @@ class Motherboard extends React.Component{
 		return(
 			<>
 			<h1>Manufacturer: {this.props.manufacturer}</h1>
-			<h2>Cores: {this.props.core}</h2>
-			<h2>RAM: {this.props.RAM}</h2>
+				<table border="1px">
+				<tr>
+					<td>Cores: {this.props.core}</td>
+				</tr>
+				<tr>
+					<td>RAM: {this.props.RAM}</td>
+				</tr>
+				<tr>Type: {this.props.type}</tr>
+				<tr>Slot: {this.props.slot}</tr>
+				</table>
 			</>
 		);
 	}
