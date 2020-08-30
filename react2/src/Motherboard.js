@@ -11,7 +11,7 @@ class Motherboard extends React.Component{
 		return(
 			<>
 			<h1>Manufacturer: {this.props.manufacturer}</h1>
-				<table border="1px">
+				<table border="1px" className="center">
 				<tr>
 					<td>Cores: {this.props.core}</td>
 				</tr>
