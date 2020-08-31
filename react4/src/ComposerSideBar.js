@@ -26,19 +26,23 @@ const SidebarExampleVisible = () => (
       </Menu.Item>
       <Menu.Item as='a'>
         <Icon name='camera' />
-        Processor
+        RAM
       </Menu.Item>
       <Menu.Item as='a'>
         <Icon name='camera' />
-        Processor
+        Graphics Memory
       </Menu.Item>
       <Menu.Item as='a'>
         <Icon name='camera' />
-        Processor
+        Storage
       </Menu.Item>
       <Menu.Item as='a'>
         <Icon name='camera' />
-        Processor
+        Cabinet
+      </Menu.Item>
+      <Menu.Item as='a'>
+        <Icon name='camera' />
+        Power Supply
       </Menu.Item>
     </Sidebar>
 
