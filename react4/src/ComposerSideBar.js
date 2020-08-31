@@ -1,4 +1,5 @@
 import React from 'react';
+import './ComposerSideBar.css';
 
 function ComposerSideBar(){
   return(
