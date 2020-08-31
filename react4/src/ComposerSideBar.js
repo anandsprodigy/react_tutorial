@@ -1,6 +1,6 @@
 import React from 'react';
 import './ComposerSideBar.css';
-import { ListGroup } from 'react-bootstrap';
+import { ListGroup, Item } from 'react-bootstrap';
 
 function ComposerSideBar(){
   return(
