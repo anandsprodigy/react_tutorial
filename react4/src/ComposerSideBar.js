@@ -25,7 +25,7 @@ const ComposerSideBar = () => (
         Processor
       </Menu.Item>
       <Menu.Item as='a'>
-        <Icon name='camera' />
+        <Icon name='microchip' />
         RAM
       </Menu.Item>
       <Menu.Item as='a'>
