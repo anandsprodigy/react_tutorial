@@ -1,26 +1,19 @@
 import React from 'react';
 import './ComposerSideBar.css';
+import { ListGroup } from 'react-bootstrap';
 
 function ComposerSideBar(){
   return(
 
     <>
       <div className="sidebar">
-        <div className="sidebarMenu">
-          <p>MotherBoard</p>
-        </div>
-        <div className="sidebarMenu">
-          <p>RAM</p>
-        </div>
-        <div className="sidebarMenu">
-          <p>Graphics</p>
-        </div>
-        <div className="sidebarMenu">
-          <p>Cabinet</p>
-        </div>
-        <div className="sidebarMenu">
-          <p>Power</p>
-        </div>
+        <ListGroup>
+          <ListGroup.Item>Cras justo odio</ListGroup.Item>
+          <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
+          <ListGroup.Item>Morbi leo risus</ListGroup.Item>
+          <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
+          <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+        </ListGroup>
       </div>
     </>
 
