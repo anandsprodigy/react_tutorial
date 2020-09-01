@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import { Button, Card } from 'react-bootstrap';
+import { Button, Card, Alert } from 'react-bootstrap';
 import './App.css';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
   </Card.Body>
 </Card>
 
- <Alert variant="danger" onClose={() => setShow(false)} dismissible>
+ <Alert variant="danger" >
         <Alert.Heading>Oh snap! You got an error!</Alert.Heading>
         <p>
           Change this and that and try again. Duis mollis, est non commodo
