@@ -15,11 +15,13 @@ function App() {
           </Card.Text>
           <ListGroup variant="flush">
             <ListGroup.Item className="text-center">AMD RYZEN 3 3100</ListGroup.Item>
-            <ListGroup.Item>ASRock 450M Pro4</ListGroup.Item>
-            <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
-            <ListGroup.Item>8 GB DDR4 RAM</ListGroup.Item>
-            <ListGroup.Item>1 TB HDD</ListGroup.Item>
-            <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+            <ListGroup.Item className="text-center">ASRock 450M Pro4</ListGroup.Item>
+            <ListGroup.Item className="text-center">Vestibulum at eros</ListGroup.Item>
+            <ListGroup.Item className="text-center">8 GB DDR4 RAM</ListGroup.Item>
+            <ListGroup.Item className="text-center">1 TB HDD</ListGroup.Item>
+            <ListGroup.Item className="text-center">NVIDIA GeForce GTX 1050 Ti </ListGroup.Item>
+            <ListGroup.Item className="text-center">Cooler Master Case</ListGroup.Item>
+            <ListGroup.Item className="text-center">Pre-installed:Windows 10 Home 64-bit |</ListGroup.Item>
           </ListGroup>
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
