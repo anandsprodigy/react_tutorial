@@ -5,13 +5,13 @@ import  {  Card, Button, ListGroup}  from 'react-bootstrap';
 
 function App() {
     return ( 
-      
+
       <div className="centering">
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/AVADirect-Custom-X99-Intel-Core-i7-gaming-cpu.png" />
         <Card.Body>
           <Card.Title className="text-center">AMD-YFT-001</Card.Title>
-          <Card.Text>
+          <Card.Text className="text-center">
             Some quick example text to build on the card title and make up the bulk of
             the card's content.
           </Card.Text>
