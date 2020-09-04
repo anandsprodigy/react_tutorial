@@ -21,7 +21,7 @@ function App() {
             <ListGroup.Item className="text-center">1 TB HDD</ListGroup.Item>
             <ListGroup.Item className="text-center">NVIDIA GeForce GTX 1050 Ti </ListGroup.Item>
             <ListGroup.Item className="text-center">Cooler Master Case</ListGroup.Item>
-            <ListGroup.Item className="text-center">Pre-installed:Windows 10 Home 64-bit |</ListGroup.Item>
+            <ListGroup.Item className="text-center">Windows 10 Home 64-bit</ListGroup.Item>
           </ListGroup>
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
