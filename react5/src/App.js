@@ -14,8 +14,11 @@ function App() {
             the card's content.
           </Card.Text>
           <ListGroup variant="flush">
-            <ListGroup.Item>AMD RYZEN 3 3100</ListGroup.Item>
+            <ListGroup.Item className="text-center">AMD RYZEN 3 3100</ListGroup.Item>
             <ListGroup.Item>ASRock 450M Pro4</ListGroup.Item>
+            <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
+            <ListGroup.Item>8 GB DDR4 RAM</ListGroup.Item>
+            <ListGroup.Item>1 TB HDD</ListGroup.Item>
             <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
           </ListGroup>
           <Button variant="primary">Go somewhere</Button>
