@@ -1,13 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import  {  Card,
-  CardHeader,
-  CardTitle,
-  CardImg,
-  CardBody,
-  CardFooter,
-  Button, ListGroup}  from 'react-bootstrap';
+import  {  Card, Button, ListGroup}  from 'react-bootstrap';
 
 function App() {
     return ( 
