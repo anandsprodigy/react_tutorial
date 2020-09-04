@@ -5,6 +5,10 @@ import  {  Card, Button, ListGroup}  from 'react-bootstrap';
 
 function App() {
     return ( 
+
+      <>
+
+      <div className="centering">
       <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/AVADirect-Custom-X99-Intel-Core-i7-gaming-cpu.png" />
         <Card.Body>
@@ -26,6 +30,9 @@ function App() {
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
       </Card>
+      </div>
+
+      </>
     );
 }
 
