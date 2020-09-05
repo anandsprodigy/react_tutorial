@@ -99,6 +99,12 @@ class ReadyComponent extends Component {
 		      <th><img src={StorageSSDLogo} width="60px" alt="SSD"/></th>
 		      <td>Gigabyte - 1 TB Gen4 M.2</td>
 		    </tr>
+		    <tr>
+		      <th colspan="4">Description
+		      <p>32 cores provide an astonishing 64 threads of simultaneous multi-processing power.</p>
+		      <p>while 80MB of combined cache and vast I/O from the enthusiast-grade AMD X399 platform</p>
+		      <p>work together to enable the world’s most powerful desktop processor.</p></th>
+		    </tr>
 		  </tbody>
 		</table>
 
