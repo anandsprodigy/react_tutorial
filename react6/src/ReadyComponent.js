@@ -27,48 +27,6 @@ class ReadyComponent extends Component {
 		  <tbody>
 		    <tr>
 		      <th><img src={CPULogo} width="60px" alt="CPU"/></th>
-		      <td>Threadripper - 3970X Upto 4.5Ghz</td>
-		    </tr>
-		    <tr>
-		      <th><img src={MotherboardLogo} width="60px" alt="AMD"/></th>
-		      <td>MSI - TRX40 Creator</td>
-		    </tr>
-		    <tr>
-		      <th><img src={RAMLogo} width="60px" alt="RAM"/></th>
-		      <td>8x2 - Trident Z RGB 16GB 3000 MHz</td>
-		    </tr>
-		    <tr>
-		      <th><img src={GraphicsCardLogo} width="60px" alt="Graphics"/></th>
-		      <td>RTX2080 Super - ZOTAC Amp 8GB</td>
-		    </tr>
-		    <tr>
-		      <th><img src={PowerSupplyLogo} width="60px" alt="Power Supply"/></th>
-		      <td>Corsair - CV 750</td>
-		    </tr>
-		    <tr>
-		      <th><img src={CabinetLogo} width="60px" alt="Cabinet"/></th>
-		      <td>CM - MB530 ARGB</td>
-		    </tr>
-		    <tr>
-		      <th><img src={StorageHDDLogo} width="60px" alt="HDD"/></th>
-		      <td>Seagate - Barracuda 1TB</td>
-		    </tr>
-		    <tr>
-		      <th><img src={StorageSSDLogo} width="60px" alt="SSD"/></th>
-		      <td>Samsung nNVMe 240 GB</td>
-		    </tr>
-		  </tbody>
-		</table>
-
-        <table class="table">
-		  <thead>
-		    <tr>
-		      <th colspan="2" className="AMD"><img src={AMDLogo} width="150px" alt="motherboard"/></th>
-		    </tr>
-		  </thead>
-		  <tbody>
-		    <tr>
-		      <th><img src={CPULogo} width="60px" alt="CPU"/></th>
 		      <td>Core i7-9700k upto 4.90 GHz</td>
 		    </tr>
 		    <tr>
@@ -98,6 +56,50 @@ class ReadyComponent extends Component {
 		    <tr>
 		      <th><img src={StorageSSDLogo} width="60px" alt="SSD"/></th>
 		      <td>Samsung nNVMe 240 GB</td>
+		    </tr>
+		  </tbody>
+		</table>
+
+		<br />
+
+        <table class="table">
+		  <thead>
+		    <tr>
+		      <th colspan="2" className="AMD"><img src={AMDLogo} width="200px" alt="motherboard"/></th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <th><img src={CPULogo} width="60px" alt="CPU"/></th>
+		      <td>Threadripper - 3970X Upto 4.5Ghz</td>
+		    </tr>
+		    <tr>
+		      <th><img src={MotherboardLogo} width="60px" alt="AMD"/></th>
+		      <td>MSI - TRX40 Creator</td>
+		    </tr>
+		    <tr>
+		      <th><img src={RAMLogo} width="60px" alt="RAM"/></th>
+		      <td>16x4 - Corsair Veng 64 GB 3000</td>
+		    </tr>
+		    <tr>
+		      <th><img src={GraphicsCardLogo} width="60px" alt="Graphics"/></th>
+		      <td>SLI - RTX Titan (2 nos.)</td>
+		    </tr>
+		    <tr>
+		      <th><img src={PowerSupplyLogo} width="60px" alt="Power Supply"/></th>
+		      <td>Corsair - AX1600i</td>
+		    </tr>
+		    <tr>
+		      <th><img src={CabinetLogo} width="60px" alt="Cabinet"/></th>
+		      <td>TT - View 71</td>
+		    </tr>
+		    <tr>
+		      <th><img src={StorageHDDLogo} width="60px" alt="HDD"/></th>
+		      <td>Seagate - Barracuda 4TB</td>
+		    </tr>
+		    <tr>
+		      <th><img src={StorageSSDLogo} width="60px" alt="SSD"/></th>
+		      <td>Gigabyte - 1 TB Gen4 M.2</td>
 		    </tr>
 		  </tbody>
 		</table>
