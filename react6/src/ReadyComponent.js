@@ -65,39 +65,37 @@ class ReadyComponent extends Component {
         <table class="table">
 		  <thead>
 		    <tr>
-		      <th colspan="2" className="AMD"><img src={AMDLogo} width="200px" alt="motherboard"/></th>
+		      <th colspan="4" className="AMD"><img src={AMDLogo} width="200px" alt="motherboard"/></th>
 		    </tr>
 		  </thead>
 		  <tbody>
 		    <tr>
 		      <th><img src={CPULogo} width="60px" alt="CPU"/></th>
 		      <td>Threadripper - 3970X Upto 4.5Ghz</td>
+			  <th><img src={MotherboardLogo} width="60px" alt="AMD"/></th>
+		      <td>MSI - TRX40 Creator</td>
 		    </tr>
 		    <tr>
 		      <th><img src={MotherboardLogo} width="60px" alt="AMD"/></th>
 		      <td>MSI - TRX40 Creator</td>
-		    </tr>
-		    <tr>
 		      <th><img src={RAMLogo} width="60px" alt="RAM"/></th>
 		      <td>16x4 - Corsair Veng 64 GB 3000</td>
 		    </tr>
 		    <tr>
 		      <th><img src={GraphicsCardLogo} width="60px" alt="Graphics"/></th>
 		      <td>SLI - RTX Titan (2 nos.)</td>
-		    </tr>
-		    <tr>
 		      <th><img src={PowerSupplyLogo} width="60px" alt="Power Supply"/></th>
 		      <td>Corsair - AX1600i</td>
 		    </tr>
 		    <tr>
 		      <th><img src={CabinetLogo} width="60px" alt="Cabinet"/></th>
 		      <td>TT - View 71</td>
-		    </tr>
-		    <tr>
-		      <th><img src={StorageHDDLogo} width="60px" alt="HDD"/></th>
+			  <th><img src={StorageHDDLogo} width="60px" alt="HDD"/></th>
 		      <td>Seagate - Barracuda 4TB</td>
 		    </tr>
 		    <tr>
+		      <th><img src={StorageSSDLogo} width="60px" alt="SSD"/></th>
+		      <td>Gigabyte - 1 TB Gen4 M.2</td>
 		      <th><img src={StorageSSDLogo} width="60px" alt="SSD"/></th>
 		      <td>Gigabyte - 1 TB Gen4 M.2</td>
 		    </tr>
