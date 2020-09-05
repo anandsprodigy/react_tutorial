@@ -1,5 +1,7 @@
 // Ready component is to diplay ready configurations of the PC
 import React, { Component } from 'react';
+import IntelLogo from './images/logos/intel-header-logo.svg';
+import AMDLogo from './images/logos/AMD.svg';
 
 
 class ReadyComponent extends Component {
@@ -11,13 +13,13 @@ class ReadyComponent extends Component {
         <table class="table">
 		  <thead>
 		    <tr>
-		      <th scope="col"></th>
+		      <th scope="col"><img src={IntelLogo} width="140" alt="Intel" style="background-color:#0071c5;"></th>
 		      <th scope="col">AMD</th>
 		    </tr>
 		  </thead>
 		  <tbody>
 		    <tr>
-		      <th><img src="/themes/custom/amd/images/logo_white.svg" width="140" alt="AMD"></th>
+		      <th><img src={IntelLogo} width="140" alt="Intel"></th>
 		      <td>Core i7-9700k upto 4.90 GHz</td>
 		    </tr>
 		    <tr>
