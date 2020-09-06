@@ -16,6 +16,8 @@
 table {
   border-collapse: collapse;
   border: 1px solid black;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 table, th, td {
@@ -25,4 +27,11 @@ table, th, td {
 
 tr:nth-child(even) {
   background-color: #f2f2f2;
+}
+
+.CenteringComponent{
+	display: flex;
+	width: 100wh;
+	flex-direction: column;
+	justify-content: center;
 }
