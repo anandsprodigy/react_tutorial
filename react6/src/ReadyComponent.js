@@ -18,6 +18,7 @@ class ReadyComponent extends Component {
       <div>
         <div>This is my other component.</div>
 
+        <div className="CenteringComponent">
         <table class="table">
 		  <thead>
 		    <tr>
@@ -59,9 +60,11 @@ class ReadyComponent extends Component {
 		    </tr>
 		  </tbody>
 		</table>
+		</div>
 
 		<br />
 
+		<div className="CenteringComponent">
         <table class="table">
 		  <thead>
 		    <tr>
@@ -107,7 +110,7 @@ class ReadyComponent extends Component {
 		    </tr>
 		  </tbody>
 		</table>
-
+		</div>
 
       </div>
     );
