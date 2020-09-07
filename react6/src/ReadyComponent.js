@@ -125,7 +125,7 @@ class ReadyComponent extends Component {
 		      <th><img src={CPULogo} width="60px" alt="CPU"/></th>
 		      <td>Core i7-9700k upto 4.90 GHz</td>
 		      <td>1</td>
-		      <td>Rs. 13000</td>
+		      <td className="pricingColumn">Rs. 13000</td>
 		    </tr>
 		    <tr>
 		      <th><img src={MotherboardLogo} width="60px" alt="AMD"/></th>

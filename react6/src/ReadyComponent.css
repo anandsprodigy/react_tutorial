@@ -35,3 +35,7 @@ tr:nth-child(even) {
 	flex-direction: column;
 	justify-content: center;
 }
+
+.pricingColumn{
+	border: 1px solid black;
+}
