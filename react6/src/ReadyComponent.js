@@ -171,7 +171,7 @@ class ReadyComponent extends Component {
 		    </tr>
 			<tr>
 		      <th colspan="3"  className="pricingColumn">Grand Total</th>
-		      <td className="pricingColumn">Rs. 160000</td>
+		      <td className="pricingColumn"><b>Rs. 160000</b></td>
 		    </tr>
 		  </tbody>
 		</table>
