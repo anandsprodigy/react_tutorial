@@ -117,7 +117,7 @@ class ReadyComponent extends Component {
         <table class="table">
 		  <thead>
 		    <tr>
-		      <th colspan="2" className="Intel"><img src={IntelLogo} width="150px" alt="motherboard"/></th>
+		      <th colspan="3" className="Intel"><img src={IntelLogo} width="150px" alt="motherboard"/></th>
 		    </tr>
 		  </thead>
 		  <tbody>
