@@ -169,6 +169,10 @@ class ReadyComponent extends Component {
 		      <td>1</td>
 		      <td>Rs. 6000</td>
 		    </tr>
+			<tr>
+		      <th colspan="3">Grand Total</th>
+		      <td>Rs. 160000</td>
+		    </tr>
 		  </tbody>
 		</table>
 		</div>
