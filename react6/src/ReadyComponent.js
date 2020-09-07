@@ -124,14 +124,20 @@ class ReadyComponent extends Component {
 		    <tr>
 		      <th><img src={CPULogo} width="60px" alt="CPU"/></th>
 		      <td>Core i7-9700k upto 4.90 GHz</td>
+		      <td>1</td>
+		      <td>Rs. 13000</td>
 		    </tr>
 		    <tr>
 		      <th><img src={MotherboardLogo} width="60px" alt="AMD"/></th>
 		      <td>Gigabyte - Z390 Aorus Pro Wifi</td>
+		      <td>1</td>
+		      <td>Rs. 11000</td>
 		    </tr>
 		    <tr>
 		      <th><img src={RAMLogo} width="60px" alt="RAM"/></th>
 		      <td>8x2 - Trident Z RGB 16GB 3000 MHz</td>
+		      <td>1</td>
+		      <td>Rs. 5000</td>
 		    </tr>
 		    <tr>
 		      <th><img src={GraphicsCardLogo} width="60px" alt="Graphics"/></th>
