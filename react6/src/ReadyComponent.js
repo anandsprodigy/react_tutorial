@@ -154,14 +154,20 @@ class ReadyComponent extends Component {
 		    <tr>
 		      <th><img src={CabinetLogo} width="60px" alt="Cabinet"/></th>
 		      <td>CM - MB530 ARGB</td>
+			  <td>1</td>
+		      <td>Rs. 4000</td>
 		    </tr>
 		    <tr>
 		      <th><img src={StorageHDDLogo} width="60px" alt="HDD"/></th>
 		      <td>Seagate - Barracuda 1TB</td>
+		      <td>1</td>
+		      <td>Rs. 3000</td>
 		    </tr>
 		    <tr>
 		      <th><img src={StorageSSDLogo} width="60px" alt="SSD"/></th>
 		      <td>Samsung nNVMe 240 GB</td>
+		      <td>1</td>
+		      <td>Rs. 6000</td>
 		    </tr>
 		  </tbody>
 		</table>
