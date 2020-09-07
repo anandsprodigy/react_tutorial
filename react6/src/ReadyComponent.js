@@ -131,47 +131,47 @@ class ReadyComponent extends Component {
 		      <th><img src={MotherboardLogo} width="60px" alt="AMD"/></th>
 		      <td>Gigabyte - Z390 Aorus Pro Wifi</td>
 		      <td>1</td>
-		      <td>Rs. 11000</td>
+		      <td className="pricingColumn">Rs. 11000</td>
 		    </tr>
 		    <tr>
 		      <th><img src={RAMLogo} width="60px" alt="RAM"/></th>
 		      <td>8x2 - Trident Z RGB 16GB 3000 MHz</td>
 		      <td>1</td>
-		      <td>Rs. 5000</td>
+		      <td className="pricingColumn">Rs. 5000</td>
 		    </tr>
 		    <tr>
 		      <th><img src={GraphicsCardLogo} width="60px" alt="Graphics"/></th>
 		      <td>RTX2080 Super - ZOTAC Amp 8GB</td>
 		      <td>1</td>
-		      <td>Rs. 15000</td>
+		      <td className="pricingColumn">Rs. 15000</td>
 		    </tr>
 		    <tr>
 		      <th><img src={PowerSupplyLogo} width="60px" alt="Power Supply"/></th>
 		      <td>Corsair - CV 750</td>
 		      <td>1</td>
-		      <td>Rs. 3000</td>
+		      <td className="pricingColumn">Rs. 3000</td>
 		    </tr>
 		    <tr>
 		      <th><img src={CabinetLogo} width="60px" alt="Cabinet"/></th>
 		      <td>CM - MB530 ARGB</td>
 			  <td>1</td>
-		      <td>Rs. 4000</td>
+		      <td className="pricingColumn">Rs. 4000</td>
 		    </tr>
 		    <tr>
 		      <th><img src={StorageHDDLogo} width="60px" alt="HDD"/></th>
 		      <td>Seagate - Barracuda 1TB</td>
 		      <td>1</td>
-		      <td>Rs. 3000</td>
+		      <td className="pricingColumn">Rs. 3000</td>
 		    </tr>
 		    <tr>
 		      <th><img src={StorageSSDLogo} width="60px" alt="SSD"/></th>
 		      <td>Samsung nNVMe 240 GB</td>
 		      <td>1</td>
-		      <td>Rs. 6000</td>
+		      <td className="pricingColumn">Rs. 6000</td>
 		    </tr>
 			<tr>
 		      <th colspan="3">Grand Total</th>
-		      <td>Rs. 160000</td>
+		      <td className="pricingColumn">Rs. 160000</td>
 		    </tr>
 		  </tbody>
 		</table>
