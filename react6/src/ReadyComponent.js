@@ -112,6 +112,53 @@ class ReadyComponent extends Component {
 		</table>
 		</div>
 
+
+        <div className="CenteringComponent">
+        <table class="table">
+		  <thead>
+		    <tr>
+		      <th colspan="2" className="Intel"><img src={IntelLogo} width="150px" alt="motherboard"/></th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr>
+		      <th><img src={CPULogo} width="60px" alt="CPU"/></th>
+		      <td>Core i7-9700k upto 4.90 GHz</td>
+		    </tr>
+		    <tr>
+		      <th><img src={MotherboardLogo} width="60px" alt="AMD"/></th>
+		      <td>Gigabyte - Z390 Aorus Pro Wifi</td>
+		    </tr>
+		    <tr>
+		      <th><img src={RAMLogo} width="60px" alt="RAM"/></th>
+		      <td>8x2 - Trident Z RGB 16GB 3000 MHz</td>
+		    </tr>
+		    <tr>
+		      <th><img src={GraphicsCardLogo} width="60px" alt="Graphics"/></th>
+		      <td>RTX2080 Super - ZOTAC Amp 8GB</td>
+		    </tr>
+		    <tr>
+		      <th><img src={PowerSupplyLogo} width="60px" alt="Power Supply"/></th>
+		      <td>Corsair - CV 750</td>
+		    </tr>
+		    <tr>
+		      <th><img src={CabinetLogo} width="60px" alt="Cabinet"/></th>
+		      <td>CM - MB530 ARGB</td>
+		    </tr>
+		    <tr>
+		      <th><img src={StorageHDDLogo} width="60px" alt="HDD"/></th>
+		      <td>Seagate - Barracuda 1TB</td>
+		    </tr>
+		    <tr>
+		      <th><img src={StorageSSDLogo} width="60px" alt="SSD"/></th>
+		      <td>Samsung nNVMe 240 GB</td>
+		    </tr>
+		  </tbody>
+		</table>
+		</div>
+
+
+
       </div>
     );
   }

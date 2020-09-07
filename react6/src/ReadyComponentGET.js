@@ -19,7 +19,7 @@ export default class ReadyComponentGET extends Component {
   }
 
   componentDidMount() {
-    axios.get(`https://jsonplaceholder.typicode.com/users`)
+    axios.get(`http://localhost:3000/data.json`)
       .then(res => {
         const persons = res.data;
         this.setState({ persons });
@@ -29,7 +29,7 @@ export default class ReadyComponentGET extends Component {
   render() {
     return (
       <ul>
-        { this.state.persons.map(person => <li>{person.name}</li>)}
+        { this.state.persons.map(person => <li>{person.SKU}</li>)}
       </ul>
     )
   }

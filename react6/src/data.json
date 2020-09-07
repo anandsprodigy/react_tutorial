@@ -10,4 +10,39 @@
     "HDD": "Seagate - Barracuda 4TB",
     "SDD": "Gigabyte - 1 TB Gen4 M.2",
     "Watt": "750"
-}]
+},
+
+{
+    "Platform": "AMD",
+    "SKU": "AMD Turing Machine",
+    "Processor": "Threadripper - 3970X Upto 4.5Ghz",
+    "Motherboard": "MSI - TRX40 Creator",
+    "RAM": "16x4 - Corsair Veng 64 GB 3000",
+    "GPU": "SLI - RTX Titan (2 nos.)",
+    "SMPS": "Corsair - AX1600i",
+    "Cabinet": "TT - View 71",
+    "HDD": "Seagate - Barracuda 4TB",
+    "SDD": "Gigabyte - 1 TB Gen4 M.2",
+    "Watt": "750"
+},
+
+{
+    "Platform": "AMD",
+    "SKU": "AMD Turing Machine",
+    "Processor": "Threadripper - 3970X Upto 4.5Ghz",
+    "Motherboard": "MSI - TRX40 Creator",
+    "RAM": "16x4 - Corsair Veng 64 GB 3000",
+    "GPU": "SLI - RTX Titan (2 nos.)",
+    "SMPS": "Corsair - AX1600i",
+    "Cabinet": "TT - View 71",
+    "HDD": "Seagate - Barracuda 4TB",
+    "SDD": "Gigabyte - 1 TB Gen4 M.2",
+    "Watt": "750"
+}
+
+
+
+
+
+
+]
