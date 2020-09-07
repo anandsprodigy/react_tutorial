@@ -117,7 +117,7 @@ class ReadyComponent extends Component {
         <table class="table">
 		  <thead>
 		    <tr>
-		      <th colspan="3" className="Intel"><img src={IntelLogo} width="150px" alt="motherboard"/></th>
+		      <th colspan="4" className="Intel"><img src={IntelLogo} width="150px" alt="motherboard"/></th>
 		    </tr>
 		  </thead>
 		  <tbody>
@@ -142,10 +142,14 @@ class ReadyComponent extends Component {
 		    <tr>
 		      <th><img src={GraphicsCardLogo} width="60px" alt="Graphics"/></th>
 		      <td>RTX2080 Super - ZOTAC Amp 8GB</td>
+		      <td>1</td>
+		      <td>Rs. 15000</td>
 		    </tr>
 		    <tr>
 		      <th><img src={PowerSupplyLogo} width="60px" alt="Power Supply"/></th>
 		      <td>Corsair - CV 750</td>
+		      <td>1</td>
+		      <td>Rs. 3000</td>
 		    </tr>
 		    <tr>
 		      <th><img src={CabinetLogo} width="60px" alt="Cabinet"/></th>
